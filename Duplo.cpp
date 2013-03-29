@@ -18,6 +18,7 @@
 
 #include <fstream>
 #include <time.h>
+#include <string.h>
 
 #include "SourceFile.h"
 #include "SourceLine.h"
