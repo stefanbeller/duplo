@@ -7,21 +7,20 @@
 class FileType
 {
 public:
-    enum FILETYPE
-    {
-        FILETYPE_UNKNOWN,
-        FILETYPE_C,
-        FILETYPE_CPP,
-        FILETYPE_CXX,
-        FILETYPE_H,
-        FILETYPE_HPP,
-        FILETYPE_JAVA,
-        FILETYPE_CS,
-        FILETYPE_VB
-    };
+	enum FILETYPE {
+		FILETYPE_UNKNOWN,
+		FILETYPE_C,
+		FILETYPE_CPP,
+		FILETYPE_CXX,
+		FILETYPE_H,
+		FILETYPE_HPP,
+		FILETYPE_JAVA,
+		FILETYPE_CS,
+		FILETYPE_VB
+	};
 
 public:
-    static FileType::FILETYPE GetFileType(const std::string& FileName);
+	static FileType::FILETYPE GetFileType(const std::string& FileName);
 };
 
 #endif
