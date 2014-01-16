@@ -306,7 +306,7 @@ int main(int argc, char* argv[])
 		std::cout << "       Duplo " << VERSION << " - duplicate source code block finder\n\n";
 
 		std::cout << "\nSYNOPSIS\n";
-		std::cout << "       duplo [OPTIONS] [INTPUT_FILELIST] [OUTPUT_FILE]\n";
+		std::cout << "       duplo [OPTIONS] [INPUT_FILELIST] [OUTPUT_FILE]\n";
 
 		std::cout << "\nDESCRIPTION\n";
 		std::cout << "       Duplo is a tool to find duplicated code blocks in large\n";
@@ -318,7 +318,7 @@ int main(int argc, char* argv[])
 		std::cout << "       -ip              ignore preprocessor directives\n";
 		std::cout << "       -d               ignore file pairs with same name\n";
 		std::cout << "       -xml             output file in XML\n";
-		std::cout << "       INTPUT_FILELIST  input filelist\n";
+		std::cout << "       INPUT_FILELIST   input filelist\n";
 		std::cout << "       OUTPUT_FILE      output file\n";
 
 		std::cout << "\nVERSION\n";

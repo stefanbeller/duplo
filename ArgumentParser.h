@@ -25,11 +25,11 @@
 class ArgumentParser
 {
 private:
-	int argc;
-	char **argv;
+	int m_argc;
+	char **m_argv;
 
 public:
-	ArgumentParser(int m_argc, char* m_argv[]);
+	ArgumentParser(int argc, char* argv[]);
 
 	bool is(char *s);
 	char *getStr(char *s, char *defaultValue="");
